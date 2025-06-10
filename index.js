@@ -5,7 +5,7 @@ import 'dotenv/config'
 
 const app = express()
 
-const PORT = 7071
+const PORT = process.env.PORT || 8085
 
 app.use(express.json());
 app.use(bookRouter);
