@@ -1,0 +1,31 @@
+{
+  "name": "libmgt-api",
+  "version": "1.0.0",
+  "description": "library management api for library management app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EchoStackC5/LibMgt-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EchoStackC5/LibMgt-API/issues"
+  },
+  "homepage": "https://github.com/EchoStackC5/LibMgt-API#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "joi": "^17.13.3",
+    "mongoose": "^8.15.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
