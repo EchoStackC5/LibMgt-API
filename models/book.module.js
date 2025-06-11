@@ -1,7 +1,7 @@
 import { Schema, model } from "mongoose"
 
 const bookSchema = new Schema({
-    bookTitle: {
+    title: {
         type: String,
         required: true
     },
