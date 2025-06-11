@@ -1,7 +1,7 @@
 import Joi from "joi";
 
 const bookSchema = Joi.object({
-    title: Joi.string().min(3).required().messages({
+    bookTitle: Joi.string().min(3).required().messages({
         "string.empty": "title cannot be empty",
         "any.required": "Title is required",
         "string.min": "Title must be at least 3 characters long"
